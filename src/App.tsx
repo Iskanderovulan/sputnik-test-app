@@ -1,7 +1,7 @@
 import { ProductCard } from "./components/ProductCard/ProductCard";
 
 const App = () => (
-  <div style={{ padding: "2rem" }}>
+  <div className="container">
     <ProductCard
       title="Коктейль de France"
       origin="France"
